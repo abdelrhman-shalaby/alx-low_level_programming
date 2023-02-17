@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*this is IF else if & else conditions*/
-int main(void)/* this is main function return 0*/
+
+/**
+ * main - print a random num
+ *
+ * Return: 0
+ */
+int main(void)
 {
 	int n;
 
