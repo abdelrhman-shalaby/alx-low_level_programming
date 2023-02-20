@@ -29,8 +29,6 @@ int main(void)
 			putchar(' ');
 			}
 		}
-	a++;
-	n++;
 		if (a + n == 17)
 		{
 			c++;
@@ -38,7 +36,11 @@ int main(void)
 			aa++;
 			a = aa;
 			n = nn;
+			a--;
+			n--;
 		}
+	n++;
+	a++;
 	}
 	putchar('\n');
 	return (0);
