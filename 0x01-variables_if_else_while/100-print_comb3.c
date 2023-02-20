@@ -19,8 +19,11 @@ int main(void)
 		{
 			putchar(48 + a);
 			putchar(48 + b);
+			if (a + b != 17)
+			{
 			putchar(',');
 			putchar(' ');
+			}
 		}
 	a++;
 	n++;
