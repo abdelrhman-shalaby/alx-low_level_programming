@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * take a n and reset to 98
- * return:0
- */
+ * reset_to_98 - return what is 98
+ * @n: int to pass value
+ *
+ * Return:
+*/
 
 void reset_to_98(int *n)
 {
