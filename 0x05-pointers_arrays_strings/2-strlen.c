@@ -3,16 +3,16 @@
 /**
 * _strlen - this is new function
 * @s: pointer to char
-* @i: size of string
 * Return:@len
 */
 int _strlen(char *s)
 {
-	int len, i;
+	int len = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s != '\0')
 	{
-		len = i + 1;
+		len++;
+		s++;
 	}
 	return (len);
 }
